@@ -1,0 +1,17 @@
+# Rojo / Roblox
+*.rbxl
+*.rbxlx
+*.rbxlx.backup
+/.rojo/
+build/
+
+# Editors / OS
+*.code-workspace
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build output
+/tmp/
+dist/

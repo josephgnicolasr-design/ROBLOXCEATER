@@ -1,0 +1,55 @@
+{
+  "name": "Abyssal",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "AbyssalShared": {
+        "$path": "src/ReplicatedStorage/AbyssalShared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AbyssalServer": {
+        "$path": "src/ServerScriptService/AbyssalServer"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "AbyssalClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/AbyssalClient"
+        }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "AbyssalMap": {
+        "$path": "src/Workspace/Map.model.json"
+      },
+      "FishingSpots": {
+        "$path": "src/Workspace/Spots.model.json"
+      },
+      "AtmosphereFX": {
+        "$path": "src/Workspace/AtmosphereFX.rbxmx"
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "AbyssalWater": {
+        "$path": "src/Lighting/Atmosphere.model.json"
+      },
+      "AbyssalBloom": {
+        "$path": "src/Lighting/Bloom.model.json"
+      },
+      "AbyssalRays": {
+        "$path": "src/Lighting/SunRays.model.json"
+      },
+      "DepthGrade": {
+        "$path": "src/Lighting/ColorGrade.model.json"
+      }
+    }
+  }
+}

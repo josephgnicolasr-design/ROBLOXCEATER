@@ -1,0 +1,299 @@
+<roblox version="4">
+  <Item class="Folder" referent="RBX0">
+    <Properties><string name="Name">AtmosphereFX</string></Properties>
+    <Item class="Part" referent="RBX2">
+      <Properties>
+        <string name="Name">FX_ReefVent</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>3</X><Y>2</Y><Z>3</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>4</X><Y>-14</Y><Z>76</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX1">
+        <Properties>
+          <string name="Name">VentBubbles</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">24</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>8</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">4 7</NumberRange>
+          <NumberRange name="Speed">3 5</NumberRange>
+          <NumberSequence name="Size">0 0.4 0 1 0.9 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.25 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.65 0.95 1 0 1 0.9 1 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>8</X><Y>8</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX4">
+      <Properties>
+        <string name="Name">FX_WreckVent</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>3</X><Y>2</Y><Z>3</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>66</X><Y>-34</Y><Z>-44</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX3">
+        <Properties>
+          <string name="Name">VentBubbles</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">18</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>8</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">4 7</NumberRange>
+          <NumberRange name="Speed">3 5</NumberRange>
+          <NumberSequence name="Size">0 0.4 0 1 0.9 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.25 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.65 0.95 1 0 1 0.9 1 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>8</X><Y>8</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX6">
+      <Properties>
+        <string name="Name">FX_TrenchVent</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>3</X><Y>2</Y><Z>3</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>-66</X><Y>-59</Y><Z>-46</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX5">
+        <Properties>
+          <string name="Name">VentBubbles</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">20</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>8</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">5 8</NumberRange>
+          <NumberRange name="Speed">3 5</NumberRange>
+          <NumberSequence name="Size">0 0.4 0 1 1.0 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.25 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.45 0.65 1 0 1 0.7 0.9 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>8</X><Y>8</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX8">
+      <Properties>
+        <string name="Name">FX_ReefRing</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>30</X><Y>2</Y><Z>30</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>-15</Y><Z>80</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX7">
+        <Properties>
+          <string name="Name">RingBubbles</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">10</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>6</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">2 4</NumberRange>
+          <NumberRange name="Speed">2 4</NumberRange>
+          <NumberSequence name="Size">0 0.3 0 1 0.7 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.3 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.65 0.95 1 0 1 0.9 1 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>20</X><Y>20</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX10">
+      <Properties>
+        <string name="Name">FX_WreckRing</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>32</X><Y>2</Y><Z>32</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>70</X><Y>-35</Y><Z>-40</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX9">
+        <Properties>
+          <string name="Name">RingBubbles</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">10</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>6</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">2 4</NumberRange>
+          <NumberRange name="Speed">2 4</NumberRange>
+          <NumberSequence name="Size">0 0.3 0 1 0.7 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.3 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.65 0.95 1 0 1 0.9 1 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>20</X><Y>20</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX12">
+      <Properties>
+        <string name="Name">FX_TrenchRing</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>34</X><Y>2</Y><Z>34</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>-70</X><Y>-60</Y><Z>-50</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX11">
+        <Properties>
+          <string name="Name">RingBubbles</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">10</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>6</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">2 4</NumberRange>
+          <NumberRange name="Speed">2 4</NumberRange>
+          <NumberSequence name="Size">0 0.3 0 1 0.7 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.3 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.45 0.65 1 0 1 0.7 0.9 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>20</X><Y>20</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX14">
+      <Properties>
+        <string name="Name">FX_ReefPlankton</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>30</X><Y>10</Y><Z>30</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>-12</Y><Z>80</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX13">
+        <Properties>
+          <string name="Name">Plankton</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">12</float>
+          <float name="LightEmission">0.6</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>0.3</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">5 8</NumberRange>
+          <NumberRange name="Speed">0.5 1.5</NumberRange>
+          <NumberSequence name="Size">0 0.15 0 1 0.3 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.4 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 1 0.85 0.6 0 1 1 1 0.9 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>45</X><Y>45</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX16">
+      <Properties>
+        <string name="Name">FX_WreckDrift</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>34</X><Y>10</Y><Z>34</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>70</X><Y>-33</Y><Z>-40</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX15">
+        <Properties>
+          <string name="Name">DriftMotes</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">12</float>
+          <float name="LightEmission">0.3</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>0.2</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">5 8</NumberRange>
+          <NumberRange name="Speed">0.5 1.5</NumberRange>
+          <NumberSequence name="Size">0 0.15 0 1 0.35 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.4 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.75 0.55 0.35 0 1 0.9 0.8 0.6 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>45</X><Y>45</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX18">
+      <Properties>
+        <string name="Name">FX_TrenchMotes</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>36</X><Y>10</Y><Z>36</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>-70</X><Y>-58</Y><Z>-50</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX17">
+        <Properties>
+          <string name="Name">ColdMotes</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">12</float>
+          <float name="LightEmission">0.6</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>0.2</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">6 9</NumberRange>
+          <NumberRange name="Speed">0.5 1.2</NumberRange>
+          <NumberSequence name="Size">0 0.15 0 1 0.3 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.4 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.45 0.65 1 0 1 0.7 0.9 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>45</X><Y>45</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX20">
+      <Properties>
+        <string name="Name">FX_AmbientMid</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <float name="Transparency">1.0</float>
+        <Vector3 name="Size"><X>200</X><Y>40</Y><Z>200</Z></Vector3>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>-30</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+      <Item class="ParticleEmitter" referent="RBX19">
+        <Properties>
+          <string name="Name">AmbientPlankton</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">8</float>
+          <float name="LightEmission">0.3</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>0.1</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">8 12</NumberRange>
+          <NumberRange name="Speed">0.3 0.8</NumberRange>
+          <NumberSequence name="Size">0 0.1 0 1 0.25 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.5 0 1 0.95 0</NumberSequence>
+          <ColorSequence name="Color">0 0.65 0.95 1 0 1 0.9 1 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>60</X><Y>60</Y></Vector2>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Model" referent="RBX21">
+      <Properties><string name="Name">SwimTrailTemplate</string></Properties>
+      <Item class="StringValue" referent="RBX22">
+        <Properties><string name="Name">WireUp</string><string name="Value">LeadDev: clone SwimTrail emitter into character HumanoidRootPart on swim start; disable on stop. Rate 8/s.</string></Properties>
+      </Item>
+      <Item class="ParticleEmitter" referent="RBX23">
+        <Properties>
+          <string name="Name">SwimTrail</string>
+          <bool name="Enabled">true</bool>
+          <float name="Rate">8</float>
+          <float name="LightEmission">0.4</float>
+          <float name="LightInfluence">0</float>
+          <float name="Drag">1.0</float>
+          <Vector3 name="Acceleration"><X>0</X><Y>4</Y><Z>0</Z></Vector3>
+          <NumberRange name="Lifetime">1 2</NumberRange>
+          <NumberRange name="Speed">1 2</NumberRange>
+          <NumberSequence name="Size">0 0.25 0 1 0.5 0</NumberSequence>
+          <NumberSequence name="Transparency">0 0.3 0 1 0.9 0</NumberSequence>
+          <ColorSequence name="Color">0 0.65 0.95 1 0 1 0.9 1 1 0</ColorSequence>
+          <Vector2 name="SpreadAngle"><X>15</X><Y>15</Y></Vector2>
+        </Properties>
+      </Item>
+  
+    </Item>
+    </Item>
+</roblox>
